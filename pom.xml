@@ -4,10 +4,10 @@
 
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>AutomationFramework</groupId>
-  <artifactId>AutomationFramework</artifactId>
+  <groupId>seleniumTestNGAutomationFramework</groupId>
+  <artifactId>seleniumTestNGAutomationFramework</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <name>AutomationFramework</name>
+  <name>seleniumTestNGAutomationFramework</name>
 
   <properties>
     <maven.compiler.source>11</maven.compiler.source>
