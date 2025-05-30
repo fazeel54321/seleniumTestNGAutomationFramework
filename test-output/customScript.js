@@ -1,0 +1,1 @@
+<script>document.addEventListener('DOMContentLoaded', function() {var header = document.querySelector('.navbar-brand');if(header) { header.innerHTML += '<span style="margin-left: 20px; font-weight: bold; color: white;">✅ Passed: 0 | ❌ Failed: 0 | ⚠️ Skipped: 0 | 📌 Total: 2</span>'; }});</script>
