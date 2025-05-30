@@ -52,7 +52,7 @@ public class Web extends Driver{
 		return found;
 	}
 	
-	public static List findElements(By element) {
+	public static List<WebElement> findElements(By element) {
 		log.info(element+" : Finding");
 		List<WebElement> elements =  driver.get().findElements(element);
 		log.info(element+" : Found successfully");
@@ -111,14 +111,14 @@ public class Web extends Driver{
 	
 	public static boolean isAvailable(By element) throws InterruptedException {
 		boolean isAvailable = false;
-		for(int i=0; i<waitTime.get(); i++) {
+		for(int i=0; i<waitTime.get()*10; i++) {
 		List<WebElement> elements = findElements(element);
 		if(elements.size()>0) {
 			isAvailable = true;
 			log.info(element+" : is available");
 			break;
 		} else {
-			Thread.sleep(1000);
+			Thread.sleep(100);
 		}
 		}
 		if(!isAvailable) {
