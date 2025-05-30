@@ -95,7 +95,7 @@ public class Driver {
 	     
 	     } catch (Exception e1) {
 	    	 e1.printStackTrace();
-	    	 log.error(e1.getCause().getMessage());
+	    	 log.error(Results.getStackMsg(e1));
 	     }
 
 	     //Log test execution in the HTML report
