@@ -25,10 +25,3 @@ jobs:
       run: |
         mvn clean test -DbatchName=Sauce -DdataProviderThreadCount=5
 
-        - name: Upload HTML Report
-      if: always()
-      uses: actions/upload-artifact@v3
-      with:
-        name: TestNG-Extent-Report
-        path: test-output/  # 🔁 change this to your actual report directory
-
