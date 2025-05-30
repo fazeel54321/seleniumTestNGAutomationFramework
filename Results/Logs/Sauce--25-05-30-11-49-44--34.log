@@ -1,0 +1,159 @@
+30-05-2025 11:49:45 INFO: XXXXXXXXXXXXXXXXXXXXXXX  Execution Started  XXXXXXXXXXXXXXXXXXXXXX
+
+
+30-05-2025 11:49:45 INFO: XXXXXXXXXXXXXXXXXXXX  Executing: TC04: Locked-out user XXXXXXXXXXXXXXXXXXXXX
+
+
+30-05-2025 11:49:45 INFO: Invalid_Login : {expectedErrorMessage=this user has been locked out, browser=chrome, password=secret_sauce, username=locked_out_user}
+
+
+30-05-2025 11:49:49 INFO: SAUCEDEMO_WAITTIME : Retrieved value: 30
+
+
+30-05-2025 11:49:49 INFO: Wait Time: 30
+
+
+30-05-2025 11:49:49 INFO: chrome Launched successfully
+
+
+30-05-2025 11:49:50 INFO: SAUCEDEMO_URL : Retrieved value: https://www.saucedemo.com/
+
+
+30-05-2025 11:49:52 INFO: SAUCEDEMO Launched successfully
+
+
+30-05-2025 11:49:52 INFO: By.id: user-name : waiting to be clickable
+
+
+30-05-2025 11:49:52 INFO: By.id: user-name : is clickable
+
+
+30-05-2025 11:49:52 INFO: By.id: user-name : typed successfully - locked_out_user
+
+
+30-05-2025 11:49:52 INFO: By.id: password : waiting to be clickable
+
+
+30-05-2025 11:49:52 INFO: By.id: password : is clickable
+
+
+30-05-2025 11:49:52 INFO: By.id: password : typed successfully - secret_sauce
+
+
+30-05-2025 11:49:52 INFO: By.id: login-button : waiting to be clickable
+
+
+30-05-2025 11:49:52 INFO: By.id: login-button : is clickable
+
+
+30-05-2025 11:49:52 INFO: By.id: login-button : Clicked successfully
+
+
+30-05-2025 11:49:52 INFO: By.xpath: //*[@class='error-message-container error'] : waiting to be visible
+
+
+30-05-2025 11:49:53 INFO: By.xpath: //*[@class='error-message-container error'] : is visible
+
+
+30-05-2025 11:49:53 INFO: Epic sadface: Sorry, this user has been locked out. : text retrived: Epic sadface: Sorry, this user has been locked out.
+
+
+30-05-2025 11:49:53 INFO: Error Message : [Epic sadface: Sorry, this user has been locked out.] is contains [this user has been locked out]
+
+
+30-05-2025 11:49:53 INFO: XXXXXXXXXXXXXXXXXX    Executed: TC04: Locked-out user  XXXXXXXXXXXXXXXXXXXXX
+
+
+30-05-2025 11:49:54 INFO: XXXXXXXXXXXXXXXXXXXX  Executing: TC06: Error icon disappears after fixing the input fields XXXXXXXXXXXXXXXXXXXXX
+
+
+30-05-2025 11:49:54 INFO: Error_icon_disappears_after_fixing_the_input_fields : {browser=chrome, password=secret_sauce, username=standard_user}
+
+
+30-05-2025 11:49:55 INFO: SAUCEDEMO_WAITTIME : Retrieved value: 30
+
+
+30-05-2025 11:49:55 INFO: Wait Time: 30
+
+
+30-05-2025 11:49:55 INFO: chrome Launched successfully
+
+
+30-05-2025 11:49:55 INFO: SAUCEDEMO_URL : Retrieved value: https://www.saucedemo.com/
+
+
+30-05-2025 11:50:01 INFO: SAUCEDEMO Launched successfully
+
+
+30-05-2025 11:50:01 INFO: By.id: login-button : waiting to be clickable
+
+
+30-05-2025 11:50:01 INFO: By.id: login-button : is clickable
+
+
+30-05-2025 11:50:01 INFO: By.id: login-button : Clicked successfully
+
+
+30-05-2025 11:50:01 INFO: By.xpath: //input[@class='input_error form_input error' and @id='user-name'] : waiting to be visible
+
+
+30-05-2025 11:50:01 INFO: By.xpath: //input[@class='input_error form_input error' and @id='user-name'] : is visible
+
+
+30-05-2025 11:50:01 INFO: By.xpath: //input[@class='input_error form_input error' and @id='password'] : waiting to be visible
+
+
+30-05-2025 11:50:01 INFO: By.xpath: //input[@class='input_error form_input error' and @id='password'] : is visible
+
+
+30-05-2025 11:50:01 INFO: By.id: user-name : waiting to be clickable
+
+
+30-05-2025 11:50:01 INFO: By.id: user-name : is clickable
+
+
+30-05-2025 11:50:01 INFO: By.id: user-name : typed successfully - standard_user
+
+
+30-05-2025 11:50:01 INFO: By.id: password : waiting to be clickable
+
+
+30-05-2025 11:50:01 INFO: By.id: password : is clickable
+
+
+30-05-2025 11:50:01 INFO: By.id: password : typed successfully - secret_sauce
+
+
+30-05-2025 11:50:01 INFO: By.xpath: //input[@class='input_error form_input error' and @id='user-name'] : waiting to be invisible
+
+
+30-05-2025 11:50:31 ERROR: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to no longer be visible: By.xpath: //input[@class='input_error form_input error' and @id='user-name'] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.41, chrome: {chromedriverVersion: 137.0.7151.55 (254bc711794d..., userDataDir: C:\Users\80092513\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55885}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55885/devtoo..., se:cdpVersion: 137.0.7151.41, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: bd196c5760ac62aa0b652d7d322e7fa6
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at libraries.Web.waitUntilInvisible(Web.java:101)
+	at pageObjects.sauceDemo.Login.isErrorIconsDisappear(Login.java:37)
+	at testCases.Error_icon_disappears_after_fixing_the_input_fields.Error_icon_disappears_after_fixing_the_input_fields(Error_icon_disappears_after_fixing_the_input_fields.java:19)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at libraries.Driver.testRunner(Driver.java:89)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+	at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:80)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1812)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+
+
+
+30-05-2025 11:50:31 INFO: XXXXXXXXXXXXXXXXXX    Executed: TC06: Error icon disappears after fixing the input fields  XXXXXXXXXXXXXXXXXXXXX
+
+

@@ -1,0 +1,144 @@
+30-05-2025 11:49:45 INFO: XXXXXXXXXXXXXXXXXXXXXXX  Execution Started  XXXXXXXXXXXXXXXXXXXXXX
+
+
+30-05-2025 11:49:45 INFO: XXXXXXXXXXXXXXXXXXXX  Executing: TC01: Valid login XXXXXXXXXXXXXXXXXXXXX
+
+
+30-05-2025 11:49:45 INFO: Valid_Login : {browser=edge, password=secret_sauce, expectedPageTitle=Products, username=standard_user}
+
+
+30-05-2025 11:49:49 INFO: SAUCEDEMO_WAITTIME : Retrieved value: 30
+
+
+30-05-2025 11:49:49 INFO: Wait Time: 30
+
+
+30-05-2025 11:49:49 INFO: edge Launched successfully
+
+
+30-05-2025 11:49:50 INFO: SAUCEDEMO_URL : Retrieved value: https://www.saucedemo.com/
+
+
+30-05-2025 11:49:52 INFO: SAUCEDEMO Launched successfully
+
+
+30-05-2025 11:49:52 INFO: By.id: user-name : waiting to be clickable
+
+
+30-05-2025 11:49:52 INFO: By.id: user-name : is clickable
+
+
+30-05-2025 11:49:52 INFO: By.id: user-name : typed successfully - standard_user
+
+
+30-05-2025 11:49:52 INFO: By.id: password : waiting to be clickable
+
+
+30-05-2025 11:49:52 INFO: By.id: password : is clickable
+
+
+30-05-2025 11:49:52 INFO: By.id: password : typed successfully - secret_sauce
+
+
+30-05-2025 11:49:52 INFO: By.id: login-button : waiting to be clickable
+
+
+30-05-2025 11:49:53 INFO: By.id: login-button : is clickable
+
+
+30-05-2025 11:49:53 INFO: By.id: login-button : Clicked successfully
+
+
+30-05-2025 11:49:53 INFO: Waiting for page to load
+
+
+30-05-2025 11:49:53 INFO: Page loaded successfully
+
+
+30-05-2025 11:49:53 INFO: By.xpath: //*[@class='login_logo' or @class='title'] : waiting to be visible
+
+
+30-05-2025 11:49:53 INFO: By.xpath: //*[@class='login_logo' or @class='title'] : is visible
+
+
+30-05-2025 11:49:53 INFO: Products : text retrived: Products
+
+
+30-05-2025 11:49:53 INFO: Page Title : [Products] is equal to [Products]
+
+
+30-05-2025 11:49:53 INFO: XXXXXXXXXXXXXXXXXX    Executed: TC01: Valid login  XXXXXXXXXXXXXXXXXXXXX
+
+
+30-05-2025 11:49:54 INFO: XXXXXXXXXXXXXXXXXXXX  Executing: TC07: Verify Navigation to Product Page after Login XXXXXXXXXXXXXXXXXXXXX
+
+
+30-05-2025 11:49:54 INFO: Verify_Navigation_to_Product_Page_after_Login : {browser=edge, password=secret_sauce, expectedTitle=Swag Labs, username=standard_user}
+
+
+30-05-2025 11:49:56 INFO: SAUCEDEMO_WAITTIME : Retrieved value: 30
+
+
+30-05-2025 11:49:56 INFO: Wait Time: 30
+
+
+30-05-2025 11:49:56 INFO: edge Launched successfully
+
+
+30-05-2025 11:49:56 INFO: SAUCEDEMO_URL : Retrieved value: https://www.saucedemo.com/
+
+
+30-05-2025 11:50:01 INFO: SAUCEDEMO Launched successfully
+
+
+30-05-2025 11:50:01 INFO: By.id: user-name : waiting to be clickable
+
+
+30-05-2025 11:50:01 INFO: By.id: user-name : is clickable
+
+
+30-05-2025 11:50:01 INFO: By.id: user-name : typed successfully - standard_user
+
+
+30-05-2025 11:50:01 INFO: By.id: password : waiting to be clickable
+
+
+30-05-2025 11:50:01 INFO: By.id: password : is clickable
+
+
+30-05-2025 11:50:01 INFO: By.id: password : typed successfully - secret_sauce
+
+
+30-05-2025 11:50:01 INFO: By.id: login-button : waiting to be clickable
+
+
+30-05-2025 11:50:01 INFO: By.id: login-button : is clickable
+
+
+30-05-2025 11:50:01 INFO: By.id: login-button : Clicked successfully
+
+
+30-05-2025 11:50:01 INFO: Waiting for page to load
+
+
+30-05-2025 11:50:01 INFO: Page loaded successfully
+
+
+30-05-2025 11:50:01 INFO: By.xpath: //*[@class='login_logo' or @class='title'] : waiting to be visible
+
+
+30-05-2025 11:50:01 INFO: By.xpath: //*[@class='login_logo' or @class='title'] : is visible
+
+
+30-05-2025 11:50:01 INFO: Products : text retrived: Products
+
+
+30-05-2025 11:50:01 INFO: Page Title : [Products] is equal to [Products]
+
+
+30-05-2025 11:50:01 INFO: Title : [Swag Labs] is equal to [Swag Labs]
+
+
+30-05-2025 11:50:01 INFO: XXXXXXXXXXXXXXXXXX    Executed: TC07: Verify Navigation to Product Page after Login  XXXXXXXXXXXXXXXXXXXXX
+
+

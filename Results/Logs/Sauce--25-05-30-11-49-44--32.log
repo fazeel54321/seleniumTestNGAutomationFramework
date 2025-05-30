@@ -1,0 +1,66 @@
+30-05-2025 11:49:45 INFO: XXXXXXXXXXXXXXXXXXXXXXX  Execution Started  XXXXXXXXXXXXXXXXXXXXXX
+
+
+30-05-2025 11:49:45 INFO: XXXXXXXXXXXXXXXXXXXX  Executing: TC02: Invalid username XXXXXXXXXXXXXXXXXXXXX
+
+
+30-05-2025 11:49:45 INFO: Invalid_Login : {expectedErrorMessage=Username and password do not match any user, browser=chrome, password=secret_sauce, username=invalid_user}
+
+
+30-05-2025 11:49:49 INFO: SAUCEDEMO_WAITTIME : Retrieved value: 30
+
+
+30-05-2025 11:49:49 INFO: Wait Time: 30
+
+
+30-05-2025 11:49:49 INFO: chrome Launched successfully
+
+
+30-05-2025 11:49:49 INFO: SAUCEDEMO_URL : Retrieved value: https://www.saucedemo.com/
+
+
+30-05-2025 11:49:53 INFO: SAUCEDEMO Launched successfully
+
+
+30-05-2025 11:49:53 INFO: By.id: user-name : waiting to be clickable
+
+
+30-05-2025 11:49:53 INFO: By.id: user-name : is clickable
+
+
+30-05-2025 11:49:54 INFO: By.id: user-name : typed successfully - invalid_user
+
+
+30-05-2025 11:49:54 INFO: By.id: password : waiting to be clickable
+
+
+30-05-2025 11:49:54 INFO: By.id: password : is clickable
+
+
+30-05-2025 11:49:54 INFO: By.id: password : typed successfully - secret_sauce
+
+
+30-05-2025 11:49:54 INFO: By.id: login-button : waiting to be clickable
+
+
+30-05-2025 11:49:54 INFO: By.id: login-button : is clickable
+
+
+30-05-2025 11:49:54 INFO: By.id: login-button : Clicked successfully
+
+
+30-05-2025 11:49:54 INFO: By.xpath: //*[@class='error-message-container error'] : waiting to be visible
+
+
+30-05-2025 11:49:54 INFO: By.xpath: //*[@class='error-message-container error'] : is visible
+
+
+30-05-2025 11:49:54 INFO: Epic sadface: Username and password do not match any user in this service : text retrived: Epic sadface: Username and password do not match any user in this service
+
+
+30-05-2025 11:49:54 INFO: Error Message : [Epic sadface: Username and password do not match any user in this service] is contains [Username and password do not match any user]
+
+
+30-05-2025 11:49:54 INFO: XXXXXXXXXXXXXXXXXX    Executed: TC02: Invalid username  XXXXXXXXXXXXXXXXXXXXX
+
+
