@@ -38,7 +38,7 @@ public class Web extends Driver{
 	public static void type(By element, String text) {
 	WebElement element1 = 	waitUntilClickable(element);
 	//element1.clear();
-	if(!text.equals(null)){
+	if(text!=null){
 	element1.sendKeys(text);
 	}
 	element1.sendKeys(Keys.TAB);
@@ -100,7 +100,7 @@ public class Web extends Driver{
 		WebDriverWait wait = new WebDriverWait(driver.get(), Duration.ofSeconds(waitTime.get()));
 		Boolean waitedElement =  wait.until(ExpectedConditions.invisibilityOfElementLocated(element));
 		log.info(element+" : is invisible");			
-		return true;
+		return waitedElement;
 	}
 	
 	public static void waitTillPageLoads() {
